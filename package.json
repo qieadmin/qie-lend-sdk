@@ -1,0 +1,11 @@
+{
+  "name": "qie-lend-sdk",
+  "version": "1.0.0",
+  "description": "QIE Lend Protocol SDK",
+  "main": "index.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.0.0"
+  }
+}

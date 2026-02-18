@@ -1,0 +1,21 @@
+[
+  {
+    "name":"aggregate",
+    "type":"function",
+    "stateMutability":"view",
+    "inputs":[
+      {
+        "components":[
+          {"name":"target","type":"address"},
+          {"name":"callData","type":"bytes"}
+        ],
+        "name":"calls",
+        "type":"tuple[]"
+      }
+    ],
+    "outputs":[
+      {"name":"blockNumber","type":"uint256"},
+      {"name":"returnData","type":"bytes[]"}
+    ]
+  }
+]

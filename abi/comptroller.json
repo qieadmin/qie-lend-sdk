@@ -1,0 +1,20 @@
+[
+  {
+    "name":"enterMarkets",
+    "type":"function",
+    "stateMutability":"nonpayable",
+    "inputs":[{"name":"cTokens","type":"address[]"}],
+    "outputs":[{"type":"uint256[]"}]
+  },
+  {
+    "name":"getAccountLiquidity",
+    "type":"function",
+    "stateMutability":"view",
+    "inputs":[{"name":"account","type":"address"}],
+    "outputs":[
+      {"name":"error","type":"uint256"},
+      {"name":"liquidity","type":"uint256"},
+      {"name":"shortfall","type":"uint256"}
+    ]
+  }
+]
